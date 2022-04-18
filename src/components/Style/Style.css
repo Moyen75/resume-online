@@ -81,6 +81,41 @@ li {
 
 .details {
     background-color: #D2DCDC;
+    z-index: 999;
+    position: relative;
+}
+
+.work h1 {
+    position: relative;
+    z-index: 1;
+    padding: 10px 0;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.work h1::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 105%;
+    background-color: #FFC300;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.work h1::after {
+    position: absolute;
+    content: '';
+    height: 48px;
+    width: 48px;
+    background-color: #b59d4d;
+    bottom: -16px;
+    left: -32px;
+    transform: rotate(30deg);
+    z-index: -11;
+    overflow: hidden;
 }
 
 .profile {
