@@ -1,0 +1,93 @@
+.personal-info {
+    padding: 30px;
+    color: white;
+}
+
+.personal-info p {
+    text-align: justify;
+}
+
+.personal-info img {
+    width: 250px;
+    height: 250px;
+    line-height: 250px;
+    object-fit: cover;
+    border: 3px solid #FFC300;
+    border-radius: 50%;
+}
+
+.heading {
+    position: relative;
+    text-align: left;
+    margin-left: 3px;
+}
+
+.heading::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 5px;
+    background-color: #FFC300;
+    top: 0;
+    left: -9px;
+    bottom: 0;
+}
+
+.level {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+.level li {
+    display: inline-block;
+    margin: 3px;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.level h3 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.level .full {
+    background-color: yellow;
+}
+
+.contact ul {
+    text-align: left;
+}
+
+.contact ul li {
+    margin-bottom: 9px;
+    font-size: 25px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.contact .fa-solid {
+    color: yellow;
+    margin-right: 15px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.details {
+    background-color: #D2DCDC;
+}
+
+.profile {
+    /* max-width: 950px; */
+    margin: 0 100px;
+    background-color: #4A5C7D;
+    display: grid;
+    grid-template-columns: 450px auto;
+    padding: 0 20px;
+}
