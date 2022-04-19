@@ -83,6 +83,7 @@ li {
     background-color: #D2DCDC;
     z-index: 999;
     position: relative;
+    padding-top: 80px;
 }
 
 .work h1 {
@@ -105,17 +106,17 @@ li {
     z-index: -1;
 }
 
-.work h1::after {
+.work span {
+    width: 0;
+    height: 0;
+    border: 21px solid transparent;
+    border-right-color: rgb(129, 129, 14);
+    border-top-color: rgb(129, 129, 14);
     position: absolute;
-    content: '';
-    height: 48px;
-    width: 48px;
-    background-color: #b59d4d;
-    bottom: -16px;
-    left: -32px;
-    transform: rotate(30deg);
+    left: -42px;
+    /* top: 0; */
+    bottom: -42px;
     z-index: -11;
-    overflow: hidden;
 }
 
 .profile {
